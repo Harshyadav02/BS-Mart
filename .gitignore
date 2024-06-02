@@ -1,4 +1,12 @@
 shop/__init__.py
 shop/__pycache__/
 shop/migrations/
+asgi.py
+__init__.py
+__pycache__
+init__.cpython-312.pyc
+settings.cpython-312.pyc
+urls.cpython-312.pyc
+wsgi.cpython-312.pyc
 shop/tests.py
+product
