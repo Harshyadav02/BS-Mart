@@ -1,0 +1,4 @@
+shop/__init__.py
+shop/__pycache__/
+shop/migrations/
+shop/tests.py
