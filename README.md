@@ -78,27 +78,33 @@ This will start the Django development server, and you can access the BS_MART ap
 ## 8. Project Structure 
 
 Here's an overview of the application directory structure:
-
-- `manage.py`: The main management script for the Django project.
-- `BS_MART/`
-  - `settings.py`: The settings/configuration file for the project.
-  - `urls.py`: The URL configuration file for the project.
-- `media/`: Directory to hold user-uploaded media files.
-  - `product/`: Directory for product images.
-- `requirements.txt`: File listing all dependencies required for the project.
-- `shop/`: The main app directory.
-  - `admin.py`: File to register models with the Django admin site.
-  - `apps.py`: File for the app configuration.
-  - `form.py`: File containing form definitions.
-  - `models.py`: File containing model definitions.
-  - `static/`: Directory containing static files (CSS, JS, images).
-    - `css/`: Directory for CSS files.
-    - `images/`: Directory for image files.
-    - `js/`: Directory for JavaScript files.
-  - `templates/`: Directory containing HTML template files.
-    - `app/`: Directory for app-specific templates.
-  - `urls.py`: URL configuration file for the shop app.
-  - `views.py`: File containing view definitions.
+```
+BS_MART/
+├── manage.py                      # The main management script for the Django project.
+├── BS_MART/
+│   ├── __init__.py                # Package initializer.
+│   ├── settings.py                # The settings/configuration file for the project.
+│   ├── urls.py                    # The URL configuration file for the project.
+│   ├── asgi.py                    # ASGI configuration file.
+│   └── wsgi.py                    # WSGI configuration file.
+├── media/                         # Directory to hold user-uploaded media files.
+│   └── product/                   # Directory for product images.
+├── requirements.txt               # File listing all dependencies required for the project.
+├── shop/                          # The main app directory.
+│   ├── __init__.py                # Package initializer.
+│   ├── admin.py                   # File to register models with the Django admin site.
+│   ├── apps.py                    # File for the app configuration.
+│   ├── forms.py                   # File containing form definitions.
+│   ├── models.py                  # File containing model definitions.
+│   ├── static/                    # Directory containing static files (CSS, JS, images).
+│   │   ├── css/                   # Directory for CSS files.
+│   │   ├── images/                # Directory for image files.
+│   │   └── js/                    # Directory for JavaScript files.
+│   ├── templates/                 # Directory containing HTML template files.
+│   │   └── app/                   # Directory for app-specific templates.
+│   ├── urls.py                    # URL configuration file for the shop app.
+│   └── views.py                   # File containing view definitions.
+```
 
 ---
 
