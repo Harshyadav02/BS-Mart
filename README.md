@@ -24,7 +24,7 @@ The technology used in this project:
 #### 2.2 Backend
 - Python
 - Django
-- SQLite (default) / any other database supported by Django
+- MySQL 
 
 ## 3. Prerequisites
 
